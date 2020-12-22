@@ -40,3 +40,10 @@ As this is automating the Windows notpad.exe app, it will only run on Windows.
 ## Running tests
 
 You can run tests by executing the `py -2 -m robot tests/*.test.robot` command in your prefered CLI.
+
+### Py Command
+    
+    py      : Allows python3 to run different versions of python
+    -2      : Sets the executing python version to version 2
+    -m      : Arguement that means that you want to run a python module
+    robot   : Run the robot module that's installed and let to execute the robot file that is listed after this arguement
