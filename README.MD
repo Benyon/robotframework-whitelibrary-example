@@ -14,7 +14,7 @@ A Robot Framework project testing the functionality of a Windows Notepad App usi
 </tr>
 <tr>
     <td>WhiteLibrary</td>
-    <td>1.2.7</td>
+    <td>1.6.0</td>
 </tr>
 </table>
 
