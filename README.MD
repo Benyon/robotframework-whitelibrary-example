@@ -26,18 +26,17 @@ As this is automating the Windows notpad.exe app, it will only run on Windows.
 
 ### Manual 
 
-1. Make sure [Python](https://www.python.org/downloads/) is installed
+1. Make sure [Python2](https://www.python.org/downloads/release/python-2717/) is installed, this needs to be the the x32 version.
 2. Make sure [pip](https://pip.pypa.io/en/stable/installing/) is installed
-3. Make sure [wheel](https://pypi.org/project/wheel/) is installed
-3. Make sure [robotframework](https://pypi.org/project/robotframework/) is installed
-4. Make sure [robotframework-autoitlibrary](https://pypi.org/project/robotframework-autoitlibrary/) is installed
+3. Make sure [robotframework](https://pypi.org/project/robotframework/) is installed via the command `py -2 -m pip install robotframework`
+4. Make sure [robotframework-whitelibrary](https://pypi.org/project/robotframework-whitelibrary/) is installed via the command `pip -2 -m pip install robotframework-whitelibrary`
 
 ### Alternative
 
-1. Make sure [Python](https://www.python.org/downloads/) is installed
+1. Make sure [Python2](https://www.python.org/downloads/) is installed
 2. Make sure [pip](https://pip.pypa.io/en/stable/installing/) is installed
-3. Install via requirements file using command `pip install -r req.txt` when in the folder
+3. Install via requirements file using command `py -2 -m pip install -r requirements` when in the folder via cls
 
 ## Running tests
 
-You can run tests by executing the `python -m robot tests/*.test.robot` command in your prefered CLI.
+You can run tests by executing the `py -2 -m robot tests/*.test.robot` command in your prefered CLI.
