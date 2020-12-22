@@ -1,7 +1,6 @@
 *** Settings ***
 Library     OperatingSystem
 Library     Process
-Library     REST
 Library     WhiteLibrary
 
 *** Test Cases ***
