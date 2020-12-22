@@ -1,6 +1,6 @@
 # Example Robot Framework Project
 
-A Robot Framework project testing the functionality of a Windows Notepad App, this is extended by the functionality of WhiteLibrary.
+A Robot Framework project testing the functionality of a Windows Notepad App using the functionality of WhiteLibrary
 
 ## Versions
 <table>
