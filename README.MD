@@ -47,3 +47,9 @@ You can run tests by executing the `py -2 -m robot tests/*.test.robot` command i
     -2      : Sets the executing python version to version 2
     -m      : Arguement that means that you want to run a python module
     robot   : Run the robot module that's installed and let to execute the robot file that is listed after this arguement
+    
+### Debugging Execution
+
+If you're having trouble running the `py` command, that may be cause you ONLY have Python 2 installed, and as `py` is a Python 3 command, it won't work.
+
+To fix this, simply use `python` instead of `py -2`, i.e. `python pip install -r requirements`
